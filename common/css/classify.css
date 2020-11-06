@@ -1,0 +1,39 @@
+.container{
+	display: flex;
+	height: 1200rpx;
+}
+
+.left{
+	flex: 1;
+	border-right: 2rpx solid #F0F0F0;
+}
+
+.left_list{
+	width: 100%;
+	text-align: center;
+	line-height: 150rpx;
+}
+
+.right{
+	flex: 3;
+	margin: 50rpx 15rpx;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+}
+.row_list{
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-around; */
+	height: 200rpx;
+	width: 33%;
+	align-items: center;
+	font-size: 25rpx;
+}
+.row_list image{
+	width: 120rpx;
+}

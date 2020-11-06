@@ -1,0 +1,204 @@
+page{
+	background: #F1F1F1;
+}
+
+/* 详情图片 */
+.detailImage{
+	width: 750rpx;
+	height: 750rpx;
+}
+.detailImage image{
+	width: 100%;
+	height: 100%;
+}
+
+/* 详细基本信息 */
+
+.detailInfo{
+	width: 100%;
+	height: 160rpx;
+	background: #FFFFFF;
+	padding: 25rpx;
+}
+
+.detailInfoName{
+	font-size: 36rpx;
+}
+
+.detailInfoPrice{
+	margin-top: 60rpx;
+}
+/* 基本信息改变 */
+.changeInfo{
+	width: 100%;
+	height: 440rpx;
+	background: #FFFFFF;
+	margin: 20rpx 0rpx;
+	padding: 20rpx;
+}
+
+.youhui{
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.manjian{
+	font-size: 26rpx;
+	border: 1px solid red;
+	padding: 5rpx 10rpx;
+	color: red;
+	margin-right: 20rpx;
+}
+.dazhe{
+	margin-left: 10rpx;
+	font-size: 26rpx;
+}
+
+.changeNum{
+	width: 100%;
+	height: 130rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom:2rpx solid #F1F1F1
+}
+
+.action{
+	margin-right: 40rpx;
+	border-radius: 10rpx;
+	border: 1px solid #AAAAAA;
+}
+.action  label{
+	display:inline-block;
+}
+
+.jian,.jia{
+	width: 66rpx;
+	height: 66rpx;
+	line-height: 66rpx;
+	text-align: center;
+	
+}
+.zhi{
+	width: 90rpx;
+	height: 66rpx;
+	border-left: 1px solid #AAAAAA;
+	border-right: 1px solid #AAAAAA;
+	line-height: 66rpx;
+	text-align: center;
+}
+.productStat{
+	width: 100%;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+
+.productGuige{
+	height: 130rpx;
+	display: flex;
+	align-items: center;
+	
+}
+
+.productGuige label{
+	font-size: 28rpx;
+	color: #C0C0C0;
+	margin-right: 60rpx;
+}
+.threed3i1{
+	color: #fff;
+	background: #e1e1e1;
+	padding: 20rpx 30rpx;
+	margin-left:20rpx ;
+}
+.changethreed3i1{
+	color: #fff;
+	background: red;
+	padding: 20rpx 30rpx;
+	margin-left:20rpx ;
+}
+
+/* 商品详情 */
+.productDetail{
+	background: #FFFFFF;
+	width: 100%;
+}
+.productDetailTitle{
+	height: 80rpx;
+	padding: 0rpx 20rpx;
+	line-height: 80rpx;
+}
+
+
+/* 商品评价 */
+.productEval{
+	width: 750rpx;
+	height:auto;
+	background:#fff;
+	margin-top:20rpx;
+	padding:0rpx 20rpx;
+	margin-bottom:100rpx;
+}
+
+.eval{
+	height:90rpx;
+	border-bottom:1px solid #F1F1F1;
+	line-height:90rpx;
+}
+
+.evalUsername{
+	display:block;
+	margin-top:10rpx;
+	font-size:28rpx;
+	color:#ccc;
+}
+
+.evalUsertitle{
+	display:block;
+	margin:20rpx 0rpx;
+	font-size:30rpx;
+}
+
+.evalImage{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.evalImage image{
+	width:136rpx;
+	height:136rpx;
+	margin:4rpx;
+}
+
+.evalTime{
+	display:block;
+	margin:20rpx 0rpx;
+	font-size:28rpx;
+	color:#ccc;
+}
+
+/* 底部按钮 */
+.foot{
+	height:100rpx;
+	border-top:1px solid #F1F1F1;
+	display:flex;
+	position:fixed;
+	bottom:0rpx;
+	width:100%;
+}
+
+.footbtn1{
+	flex:1;
+	height:100%;
+	background:#f26b11;
+	color:#fff;
+	border-radius:0rpx!important;
+}
+
+.footbtn2{
+	flex:1;
+	height:100%;
+	background:#e43a3d;
+	color:#fff;
+	border-radius:0rpx!important;
+}

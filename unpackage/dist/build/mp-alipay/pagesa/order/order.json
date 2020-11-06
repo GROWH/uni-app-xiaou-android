@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "我的订单",
+  "pullRefresh": true,
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-search-bar/uni-search-bar"
+  }
+}

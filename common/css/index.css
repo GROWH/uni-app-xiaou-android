@@ -1,0 +1,306 @@
+	/* head头部 */
+	.head {
+		height: 80rpx;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		border-bottom: 2rpx solid #DDD;
+	}
+
+	.head image {
+		width: 150rpx;
+		margin: 0 100rpx 0 25rpx;
+	}
+
+	.searchview {
+		width: 280rpx;
+		height: 45rpx;
+		background-color: #f1f1f1;
+	}
+
+	input {
+		font-size: 23rpx;
+		text-align: center;
+	}
+
+	/* 快速导航 */
+	.quicknav {
+		width: 100%;
+		height: 80rpx;
+		white-space: nowrap;
+	}
+
+	.quicknav view {
+		display: inline-block;
+		color: gray;
+		margin: auto 35rpx;
+		text-align: center;
+		line-height: 80rpx;
+	}
+
+	.navactive {
+		border-bottom: 5rpx solid red;
+		padding-bottom: 10rpx;
+		color: black;
+	}
+
+	/* 轮播图 */
+	swiper image {
+		width: 100%;
+		height: 300rpx;
+	}
+
+	/* 功能导航 */
+	.funnav {
+		width: 100%;
+		height: 180rpx;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.funnavrow {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center
+	}
+
+	.funnavrow image {
+		width: 75rpx;
+	}
+
+	.funnavrow text {
+		font-size: 25rpx;
+		font-weight: bold;
+	}
+
+	/* 秒杀热推区域 */
+	.seckill {
+		width: 100%;
+		height: 470rpx;
+		background-color: #f1f1f1;
+		display: flex;
+		padding: 35rpx 0;
+	}
+
+	/* 秒杀热推左侧区域 */
+	.seckill .leftseckill {
+		flex: 1;
+		border-right: 1rpx solid #F1F1F1;
+		background-color: white;
+		padding: 20rpx;
+	}
+
+	.leftseckill .title {
+		display: flex;
+		align-items: center;
+		color: #f6637b;
+		font-size: 36rpx;
+	}
+
+	.leftseckill .title image {
+		width: 40rpx;
+	}
+
+	.leftseckill .info {
+		margin: 8rpx 0;
+		color: #999897;
+		font-size: 28rpx;
+	}
+
+	.leftseckill .time {
+		width: 300rpx;
+		height: 50rpx;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.leftseckill .time view {
+		width: 50rpx;
+		height: 50rpx;
+		background-color: #000000;
+		text-align: center;
+		line-height: 50rpx;
+		color: white;
+	}
+
+	.leftseckill .time view:nth-of-type(4) {
+		width: 100rpx;
+		height: 50rpx;
+		background-color: #fee300;
+		color: white;
+	}
+
+	.leftseckill .goodimg {
+		width: 280rpx;
+		margin-left: 35rpx;
+	}
+
+	/* 秒杀热推右侧区域 */
+	.seckill .rightseckill {
+		flex: 1;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rightseckill view {
+		flex: 1;
+	}
+
+	.rightseckill .top {
+		border-bottom: 1rpx solid #F1F1F1;
+		position: relative;
+	}
+
+	.top .topinfo {
+		position: absolute;
+		top: 20rpx;
+		left: 20rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.top .topinfo text:nth-of-type(1) {
+		font-size: 34rpx;
+		color: #f33182;
+	}
+
+	.top .topinfo text:nth-of-type(2) {
+		font-size: 23rpx;
+		color: gray;
+	}
+
+	.top image {
+		width: 140rpx;
+		position: absolute;
+		right: 15rpx;
+		top: 20rpx;
+	}
+
+	.rightseckill .bottom {
+		display: flex;
+	}
+
+	.bottom view {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.bottom .bottomgood {
+		border-right: 1rpx solid #F1F1F1;
+	}
+
+	.bottom .bottomgood text:nth-of-type(1) {
+		font-size: 34rpx;
+		color: #f33182;
+	}
+
+	.bottom .bottomgood text:nth-of-type(2) {
+		font-size: 23rpx;
+		color: gray;
+	}
+
+	.bottom .bottomgood image {
+		width: 100rpx;
+	}
+
+	/* 广告推荐区域 */
+	.gg {
+		width: 100%;
+		height: 240rpx;
+		background-color: #F1F1F1;
+	}
+
+	.gg image {
+		width: 100%;
+	}
+
+	/* 商品推荐区域	 */
+	.recommendgood {
+		width: 100%;
+	}
+
+	.recommendnav {
+		border: 1rpx solid gray;
+		height: 70rpx;
+		display: flex;
+		justify-content: space-around;
+		margin: 20rpx;
+	}
+
+	.recommendnav view {
+		flex: 1;
+		line-height: 70rpx;
+		text-align: center;
+	}
+
+	.recommendnav view:nth-of-type(2) {
+		border-left: 1rpx solid gray;
+		border-right: 1rpx solid gray;
+	}
+
+	/* 推荐商品详情 */
+	.recommendlist {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.recommendlist .recommendrow {
+		margin: 0 20rpx 20rpx 20rpx;
+		height: 325rpx;
+		box-shadow: 5rpx 10rpx 5rpx #8F8F94;
+		border: 1rpx solid #8F8F94;
+		position: relative;
+	}
+
+	.recommendrow image {
+		position: absolute;
+		top: 65rpx;
+		left: 20rpx;
+		width: 200rpx;
+	}
+
+	.recommendrow .recommendrowinfo {
+		position: absolute;
+		height: 210rpx;
+		top: 60rpx;
+		left: 240rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	.recommendrowinfo text:nth-of-type(1) {
+		color: black;
+	}
+
+	.recommendrowinfo text:nth-of-type(2) {
+		color: red;
+	}
+
+	.recommendrowinfo text:nth-of-type(3) {
+		color: #ccc;
+		text-decoration: line-through;
+		font-size: 24rpx;
+	}
+
+	.recommendrowinfo text:nth-of-type(4) {
+		color: white;
+		background-color: #ffa500;
+		border-radius: 10rpx;
+		width: 160rpx;
+		line-height: 55rpx;
+		text-align: center;
+		font-size: 28rpx;
+	}
+
+	.recommendactive {
+		background-color: #dd524d;
+		color: white;
+	}

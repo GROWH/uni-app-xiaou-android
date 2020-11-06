@@ -1,0 +1,146 @@
+{
+	// 如果是小程序操作的话，相当于app.json
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages	
+		
+		{
+			// 页面路径 -- 首页
+			"path": "pages/index/index",
+			// 页面的局部配置，相当于小程序中的页面.json
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			// 页面路径 -- 购物车
+			"path": "pages/cart/cart",
+			// 页面的局部配置，相当于小程序中的页面.json
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor":"#f26b11",
+				"navigationBarTextStyle":"white",
+				"enablePullDownRefresh":true
+			}
+		},	
+		{
+			// 页面路径 --  我的
+			"path": "pages/mine/mine",
+			// 页面的局部配置，相当于小程序中的页面.json
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#f26b11",
+				"navigationBarTextStyle":"white"
+			}
+		}
+    ],
+	"subPackages": [{
+		// root 为根目录
+	        "root": "pagesa",
+	        "pages": [{
+				// 页面路径 -- 确认订单页面
+	            "path": "confirm/confirm",
+				"style" : {
+					"navigationBarTitleText": "确认订单",
+					"enablePullDownRefresh":true
+				}
+	          
+	        },
+			{
+				// 页面路径 -- 用户登录页面
+			    "path": "login/login",
+				"style" : {
+					"navigationBarTitleText": "授权登录",
+					"enablePullDownRefresh":true
+				}
+			   
+			},
+			{
+				// 页面路径 -- 订单详情页面
+			    "path": "order/order",
+				"style" : {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh":true
+				}
+			   
+			},
+			{
+				// 页面路径 -- 用户手机验证码登录页面
+			    "path": "send/send",
+				"style" : {
+					"navigationBarTitleText": "短信登录",
+					"enablePullDownRefresh":true
+				}
+			   
+			}]
+	    },
+		{
+			// root 为根目录
+		        "root": "pagesb",
+		        "pages": [{
+						// 页面路径 -- 搜索
+		            "path": "search/search",
+					"style" : {
+						"navigationBarTitleText": "搜索商品",
+						"enablePullDownRefresh":true
+					}
+		         
+		        },
+				{
+					// 页面路径 -- 商品分类页面
+				    "path": "classify/classify",
+					"style" : {
+						"navigationBarTitleText": "商品分类",
+						"enablePullDownRefresh":true
+					}
+				   
+				}, 
+				{
+					// 页面路径 -- 商品详情页面
+				    "path": "details/details",
+					"style" : {
+						"navigationBarTitleText": "商品详情",
+						"enablePullDownRefresh":true
+					}
+				   
+				},
+				{
+					// 页面路径 -- 商品列表页面
+				    "path": "product/product",
+					"style" : {
+						"navigationBarTitleText": "商品列表",
+						"enablePullDownRefresh":true
+					}
+				   
+				}]
+		    }],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#000",
+	    "selectedColor": "#ff750b",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabBar/shouye.png",
+	        "selectedIconPath": "static/tabBar/Ashouye.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/cart/cart",
+	        "iconPath": "static/tabBar/gouwuchekong.png",
+	        "selectedIconPath": "static/tabBar/Agouwuchekong.png",
+	        "text": "购物车"
+	    },
+		{
+		    "pagePath": "pages/mine/mine",
+		    "iconPath": "static/tabBar/wode.png",
+		    "selectedIconPath": "static/tabBar/Awode.png",
+		    "text": "我的"
+		}
+		]
+	}
+}

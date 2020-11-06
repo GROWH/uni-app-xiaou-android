@@ -1,0 +1,96 @@
+page{
+	background: #F1F1F1;
+}
+/* 头部头像部分 */
+.mineTop{
+	height: 240rpx;
+	background: #f26b11;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 40rpx;
+}
+.mineTop_left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mineTop_left image{
+	width: 120rpx;
+	border-radius: 50%;
+}
+.mineTop_left_image{
+	margin-right: 10rpx;
+}
+.mineTop_left_info{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 25rpx;
+}
+
+.mineTop_right_info{
+	width: 180rpx;
+	height: 80rpx;
+	background: #fff;
+	color: #ff0000;
+	font-size: 25rpx;
+	border-radius: 8rpx;
+	text-align: center;
+	line-height: 80rpx;
+}
+.mineTop_right{
+	display: flex;
+	align-items: center;
+}
+
+
+/* 订单状态 */
+.order_state{
+	height: 160rpx;
+	background: #fff;
+	display: flex;
+	margin-bottom: 20rpx;
+}
+.order_state_list{
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.order_state_list image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.list_text{
+	font-size: 26rpx;
+	margin-top: 8rpx;
+}
+
+/* 个人信息 */
+.person_msg{
+	background: #fff;
+}
+.MsgItemLogo{
+	width: 50rpx;
+	height: 50rpx;
+	margin: 0rpx 15rpx;
+}
+
+.MsgItemDetail{
+	width: 40rpx;
+	height: 40rpx;
+}
+
+.person_msg_list{
+	height: 136rpx;
+	border-bottom: 2rpx solid #F0F0F0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.person_msg_list_info,.MsgItemRight{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}

@@ -1,0 +1,44 @@
+
+.row{
+	position: relative;
+	margin: 10rpx 20rpx;
+	height: 190rpx;
+	border-bottom: 1rpx solid #AAAAAA;
+}
+image{
+	position: absolute;
+	top: 0;
+	left:10rpx;
+	width: 160rpx;
+}
+.info{
+	height: 85%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	font-size: 25rpx;
+}
+.info text:nth-of-type(2){
+	color: red;
+}
+.info text:nth-of-type(3){
+	font-size: 20rpx;
+	color: #AAAAAA;
+}
+.api{
+	line-height: 200rpx;
+	text-align: center;
+	font-size: 40rpx;
+	color: #006699;
+}
+
